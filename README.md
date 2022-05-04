@@ -29,7 +29,7 @@ ex: s3://<bucketname>
 	6. Expose environment variable:
 #Add env variables in bashrc using the command below
 vi .bashrc
-# Give unique name to the S3 bucket which you created.
+#Give unique name to the S3 bucket which you created.
 export NAME=<name-of-kops>
 export KOPS_STATE_STORE=s3://<bucketname>
 
